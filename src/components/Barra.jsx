@@ -93,7 +93,6 @@ function Barra() {
 BarraSelected.propTypes = {
   iconn: PropTypes.object.isRequired,
   nombre: PropTypes.string.isRequired,
-  clase: PropTypes.string.isRequired,
   isSelected: PropTypes.bool.isRequired,
   onClick: PropTypes.func.isRequired,
 };
